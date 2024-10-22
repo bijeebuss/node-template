@@ -1,0 +1,17 @@
+{
+  "name": "document-upload-script",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "watch": "tsx --watch index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tsx": "^4.19.1"
+  },
+  "devDependencies": {
+  }
+}

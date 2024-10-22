@@ -1,4 +1,4 @@
-# document-upload-script
+# node template
 
 To install dependencies:
 

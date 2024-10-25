@@ -7,7 +7,7 @@
     // "source=/var/run/user/1000/docker.sock,target=/var/run/docker.sock,type=bind",
     "source=${localEnv:HOME}/.bashrc,target=/home/ubuntu/.bashrc,type=bind",
     "source=${localEnv:HOME}/.bash_history,target=/home/ubuntu/.bash_history,type=bind",
-    "source=${localEnv:HOME}/.gitconfig,target=/home/node/.gitconfig,type=bind",
+    "source=${localEnv:HOME}/.gitconfig,target=/home/ubuntu/.gitconfig,type=bind",
     // "source=${localEnv:HOME}/.gnupg,target=/home/ubuntu/.gnupg,type=bind",
     // "source=${localEnv:HOME}/.password-store,target=/home/ubuntu/.password-store,type=bind",
     "source=${localEnv:HOME}/.ssh,target=/home/ubuntu/.ssh,type=bind",
